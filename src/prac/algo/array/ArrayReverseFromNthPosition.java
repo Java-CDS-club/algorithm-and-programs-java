@@ -1,6 +1,8 @@
 package prac.algo.array;
 
 import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class ArrayReverseFromNthPosition {
 
@@ -28,6 +30,9 @@ public class ArrayReverseFromNthPosition {
 	public static void main(String[] args) {
 		String input = "1234567";
 		rotate(input.toCharArray(), 1);
+		
+		Map<String, String> map = new LinkedHashMap<>();
+		map.put("1", "Hi");
 	}
 
 }
